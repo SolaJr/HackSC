@@ -1,3 +1,19 @@
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
 h1 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -1592,6 +1608,10 @@ h2 {
 
 .heading-9 {
   color: #fff;
+}
+
+.textarea {
+  border-radius: 0px;
 }
 
 html.w-mod-js *[data-ix="page-wrapper-load"] {
